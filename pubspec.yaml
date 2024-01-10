@@ -1,0 +1,93 @@
+name: responsive_portfolio
+description: "A new Fluter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+  # state management
+  provider: ^6.1.1
+  flutter_bloc: ^8.1.3
+
+  # http
+  http: ^1.1.2
+
+   # utils
+  flutter_svg: ^2.0.9
+  # flip_card: ^0.7.0
+  sizer: ^2.0.15
+  connectivity_plus: ^5.0.2
+  url_launcher: ^6.2.2
+  carousel_slider: ^4.2.1
+  animated_text_kit: ^4.2.2
+  scrollable_positioned_list: ^0.3.8
+
+  # web related
+  # flutter_html: ^3.0.0-beta.2
+  # url_strategy: ^0.2.0
+  universal_html: ^2.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/imgs/
+    - assets/icons/
+    - assets/gif/
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/montserrat/montserrat.ttf
+
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+        - asset: assets/fonts/poppins/Poppins-Light.ttf
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
+          weight: 900
+        - asset: assets/fonts/poppins/Poppins-Medium.ttf
+          weight: 300
+        - asset: assets/fonts/poppins/Poppins-SemiBold.ttf
+          weight: 500
+        - asset: assets/fonts/poppins/Poppins-Italic.ttf
+          style: italic
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: "AppIcon"
+  image_path: "assets/imgs/portfolio.png"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/imgs/portfolio.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
+  background_color_ios: "#ffffff"
+  web:
+    generate: true
+    image_path: "assets/imgs/portfolio.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/imgs/portfolio.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/imgs/portfolio.png"
