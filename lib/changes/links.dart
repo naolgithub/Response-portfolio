@@ -30,8 +30,8 @@ const String profileImage =
     "https://images.unsplash.com/photo-1503443207922-dff7d543fd0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80";
 //
 // fiverr Link
-const String fiverr = 'https://www.fiverr.com/sudeshnb';
+const String fiverr = 'https://www.fiverr.com/naolaa';
 // upwork Link
-const String upwork = 'https://www.upwork.com/freelancers/~015c46144016569e31';
+const String upwork = 'https://www.upwork.com/freelancers/~01b874550086f9f5c6';
 // whatsapp Link
-const String whatsapp = 'https://api.whatsapp.com/send?phone=94741325674';
+const String whatsapp = 'https://api.whatsapp.com/send?';
