@@ -35,6 +35,7 @@ dependencies:
   # flutter_html: ^3.0.0-beta.2
   # url_strategy: ^0.2.0
   universal_html: ^2.2.4
+  firebase_core: ^2.24.2
 
 dev_dependencies:
   flutter_test:
